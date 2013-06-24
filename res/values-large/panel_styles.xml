@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--   Copyright 2013 Handpoint
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources>
+    <style name="LcdStyle">
+		<item name="android:textSize">130dp</item>
+		<item name="android:paddingRight">20dp</item> 
+		<item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="TextLcdStyle">
+        <item name="android:textSize">90dp</item>
+    </style>
+    <style name="OrangeButtonStyle">
+		<item name="android:layout_width">fill_parent</item> 
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_centerInParent">true</item>
+		<item name="android:layout_marginLeft">6dp</item>
+		<item name="android:layout_marginRight">6dp</item>
+		<item name="android:layout_marginTop">3dp</item>
+		<item name="android:layout_marginBottom">3dp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">55dp</item>
+	</style>
+</resources>
+
+<!--
+	<style name="receiptViewStyle">
+		<item name="android:layout_marginLeft">35dp</item>
+		<item name="android:textSize">25dp</item> 
+	</style>
+-->

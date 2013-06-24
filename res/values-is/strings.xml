@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--   Copyright 2013 Handpoint
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Handpoint</string>
+    <string name="abs_title">HANDPOINT</string>
+<!-- commons -->
+    <string name="pay">Greiða</string>
+    <string name="refund">Endurgreiða</string>
+    <string name="yes">Já</string>
+    <string name="no">Nei</string>
+    <string name="ok">Í lagi</string>
+    <string name="cancel">Hætta við</string>
+	<string name="done">Lokið</string>   
+<!-- numpad -->
+	<string name="description">+ Lýsing</string>
+	<string name="take_photo">Taka mynd</string>
+	<string name="no_photo_ability">Myndataka ekki í boði</string>
+	<string name="no_full_size_photo">Mynd ekki í boði</string>
+	<string name="product_photo">Mynd af vöru</string>
+	<string name="remove_product">Fjarlægja vöru</string>
+	<string name="button_00">00</string>
+	<string name="button_0">0</string>
+	<string name="button_1">1</string>
+	<string name="button_2">2</string>
+	<string name="button_3">3</string>
+	<string name="button_4">4</string>
+	<string name="button_5">5</string>
+	<string name="button_6">6</string>
+	<string name="button_7">7</string>
+	<string name="button_8">8</string>
+	<string name="button_9">9</string>
+<!-- main menu -->
+	<string name="connect_to_last">Tengjast aftur síðasta tæki</string>
+    <string name="settings">Stillingar</string>
+    <string name="exit">Hætta</string>
+    <string name="payments_history">Greiðslusaga</string>
+<!-- receipt menu -->
+	<string name="thanks">Takk fyrir!</string>
+	<string name="receipt_send_title">Viltu kvittun?</string>
+	<string name="email_hint">netfang</string>
+	<string name="sms_hint">SMS númer</string>
+	<string name="revert">Afturkalla</string>
+	<string name="details">Nánar</string>
+	<string name="no_merchant_email_error_prompt">"Athugið að netfang söluaðila sé skráð í stillingum."</string>
+	<string name="no_server_settings_error_prompt">"Vinsamlegast kannið stillingar póstþjóns."</string>
+<!-- image preview -->
+	<string name="preview_title">Forsýning</string>
+	<string name="retake_action">Endurtaka</string>
+	<string name="remove_action">Fjarlægja</string>
+<!-- options -->
+	<string name="header">Valmynd</string>
+	<string name="connect_to">Tengja tæki</string>
+	<string name="faq">FAQ</string>
+	<string name="about">Um Handpoint</string>
+	<string name="calulator">Reiknivél</string>
+	<string name="logout">Útskrá</string>
+<!-- Preferences -->
+	<string name="preference_connection_group">Tengingar tækja</string>
+	<string name="preference_operation_group">Rekstrarstillingar</string>
+	<string name="preference_merchant_group">Stillingar söluaðila</string>
+	<string name="connection_type">Tengitegund</string>
+	<string name="bluetooth">Blátönn</string>
+	<string name="bluetooth_turn_on">Kveikja á blátönn</string>
+	<string name="bluetooth_turning_on">Kveiki á blátönn...</string>
+	<string name="bluetooth_turning_off">Slekk á blátönn...</string>
+	<string name="bluetooth_settings">Blátannarstillingar</string>
+	<string name="bluetooth_settings_summary">Vinna með tengingar, nafn tækis og sýnileika</string>
+	<string name="bluetooth_scan">Leita eftir tækjum</string>
+	<string name="bluetooth_devices">Blátannartæki</string>
+	<string name="bluetooth_connected">Tengt</string>
+	<string name="bluetooth_connecting">Tengist...</string>
+	<string name="bluetooth_disconnected">Aftengt</string>
+	<string name="bt_device_state_non_bonded">Para við þetta tæki</string>
+	<string name="bt_device_state_bonded">Parað en ótengt</string>
+	<string name="bt_device_state_connected">Parað og tengt</string>
+	<string name="serial">Serial</string>
+	<string name="serial_settings">Serial tengistillingar</string>
+	<string name="serial_connect">Tengjast með serial stillingum</string>
+	<string name="serial_settings_summary">Stilla serial tengingu</string>
+	<string name="serial_com_port">COM port</string>
+	<string-array name="serial_com_port_titles">
+		<item>Com 1</item>
+		<item>Com 2</item>
+		<item>Com 3</item>
+		<item>Com 4</item>
+		<item>Com 5</item>
+		<item>Com 6</item>
+		</string-array>	
+	<string-array name="serial_com_port_values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+	</string-array>
+	<string name="serial_baud_rate">Baud hraði</string>
+	<string-array name="serial_baud_rate_titles">
+		<item>115200 bps</item>
+		<item>19200 bps</item>
+		<item>9600 bps</item>
+		<item>4800 bps</item>
+		<item>2400 bps</item>
+		<item>1200 bps</item>
+	</string-array>	
+	<string-array name="serial_baud_rate_values">
+		<item>5</item>
+		<item>4</item>
+		<item>3</item>
+		<item>2</item>
+		<item>1</item>
+		<item>12</item>
+	</string-array>
+	<string name="serial_number_of_bits">Fjöldi bita</string>
+	<string-array name="serial_number_of_bits_titles">
+		<item>7 bitar</item>
+		<item>8 bitar</item>
+	</string-array>	
+	<string-array name="serial_number_of_bits_values">
+		<item>7</item>
+		<item>8</item>
+	</string-array>
+	<string name="serial_parity">Parity</string>
+	<string-array name="serial_parity_titles">
+		<item>Ekkert</item>
+		<item>Slétt</item>
+		<item>Oddatölu</item>
+	</string-array>	
+	<string-array name="serial_parity_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	<string name="serial_stop_bits">Stop bitar</string>
+	<string-array name="serial_stop_bits_titles">
+		<item>1 bit</item>
+		<item>2 bits</item>
+		<item>1.5 bits</item>
+	</string-array>	
+	<string-array name="serial_stop_bits_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	<string name="serial_handshake">Handshake</string>
+	<string-array name="serial_handshake_titles">
+	    <item>Non</item>
+		<item>DTR</item>
+		<item>DSR</item>
+		<item>CTS</item>
+		<item>RTS</item>	    
+	</string-array>	
+	<string-array name="serial_handshake_values">
+	    <item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>4</item>
+		<item>8</item>
+		</string-array>
+	<string name="serial_flow_control">Flæðisstjórn</string>
+	<string-array name="serial_flow_control_titles">
+		<item>Non</item>
+		<item>XON/XOFF</item>
+		<item>RS/CS</item>
+	</string-array>	
+	<string-array name="serial_flow_control_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+			
+	<string name="default_currency">Mynt</string>
+	<string name="default_operation">Virkni</string>
+	<string name="default_receipt_action">Senda kvittun með</string>
+	<string-array name="operation_titles">
+		<item>Sala</item>
+		<item>Endurgreiðsla</item>
+	</string-array>	
+	<string-array name="operation_values">
+		<item>1</item>
+		<item>3</item>
+	</string-array>
+	<string name="lock_delay_title">Læsingartími</string>
+	<string name="lock_delay_summary">Stilla tíma sjálfvirkrar læsingar</string>
+	<string-array name="lock_delay_title">
+        <item>Strax</item>
+        <item>15 sekúndur</item>
+        <item>30 sekúndur</item>
+        <item>1 mínúta</item>
+        <item>5 mínúta</item>
+        <item>10 mínúta</item>
+    </string-array>
+    <string-array name="lock_delay_value">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>300</item>
+        <item>600</item>
+    </string-array>
+	<string name="merchant_email_address">Netfang söluaðila</string>
+	<string name="merchant_email_server_settings">Stillingar póstþjóns</string>
+	<string name="merchant_name">Söluaðili</string>
+	<string name="merchant_address">Heimilisfang</string>
+	<string name="merchant_email_user">Notandi</string>
+	<string name="merchant_email_pswd">Lykilorð</string>
+	<string name="merchant_email_host">Þjónn</string>
+	<string name="merchant_email_port">Port</string>
+	<string name="merchant_email_protocol">Samskiptastaðall</string>
+
+	<string-array name="supported_protocols_titles">
+		<item>None</item>
+		<item>SSL</item>
+		<item>TLS</item>
+	</string-array>
+	<string-array name="supported_protocols_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+
+	<string name="preference_mode_group">Keyrsluhamur</string>
+	<string name="preference_security_group">Öryggi</string>	
+	<string name="simulation_mode">Hermun</string>
+	<string name="simulator_delay">Hermitöf</string>
+	<string name="simulator_delay_dialog">Hermitöf (ms)</string>
+	<string name="simulation_mode_summary">Keyra með hermi</string>
+
+	<string name="landscape_mode">Láréttur hamur</string>
+	<string name="landscape_mode_summary">Keyra í láréttum (landscape) ham.</string>
+
+	<string name="shared_secret_key">Shared Secret Lykill</string>
+	<string name="password">Lykilorð</string>	
+	<string name="confirm_password">Staðfesta lykilorð</string>	
+	<string name="preference_support_group">Þjónusta</string>
+	<string name="support_mode">Þjónustuhamur</string>
+	<string name="support_mode_summary">Safnar upplýsingum fyrir þjónustuver meðan verið er að nota forritið</string>
+	<string name="support_mode_warning">Aðvörun: Handpoint forritið keyrir mun hægar í þjónustuham og ætti því aðeins að nota sé þess þörf.</string>
+    <string name="support_contact_summary">Senda tölvupóst á þjónustuver.</string>
+	
+	<string-array name="connection_type_titles">
+	    <item>Blátönn</item>
+	    <item>Serial</item>
+	</string-array>
+	<string-array name="connection_type_values">
+	    <item>BT</item>
+	    <item>COM</item>
+	</string-array>
+	<string name="unknown">Óþekkt</string>
+<!-- password dialog -->
+	<string name="edit_old_password_label">Slá inn fyrra lykilorð:</string>	
+	<string name="edit_password_label">Nýtt lykilorð:</string>	
+	<string name="edit_password2_label">Nýtt lykilorð endurtekið:</string>
+<!-- currencies -->
+    <string name="currency_title_ISK">Íslensk króna</string>
+	<string name="currency_title_USD">Bandaríkjadollari</string>
+	<string name="currency_title_GBP">Sterlingspund</string>
+	<string name="currency_title_EUR">Evra</string>
+<!-- Activation -->
+	<string name="ini_data_loaded">Forritið hefur verið virkjað</string>
+	<string name="ini_data_load_failed">Ekki tókst að virkja forritið</string>
+    <string name="activation_dialog_message">Viltu virkja forritið?</string>
+<!-- Statuses -->
+	<string name="label.connecting">Tengist...</string>
+	<string name="label.approved">Samþykkt</string>
+	<string name="label.declined">Hafnað</string>
+	<string name="label_not_available">N/A</string>
+<!-- Email template -->
+	<string name="sending_email">Sendir tölvupóst ...</string>
+	<string name="email_template" formatted="false">
+    <![CDATA[
+    <h2>KORTAGREIÐSLA</h2>
+    <b>%s</b>
+    %s
+	]]>
+	</string>
+<!-- SMS template -->
+	<string name="sms_template" formatted="false"><![CDATA[
+%s\n
+\n
+Færsla:%s\n
+%s %s%s\n
+\n
+Staðfest með PIN\n
+%s\n
+Þökk fyrir viðskiptin.
+	]]>
+	</string>
+    <string name="contact_support">Hafa samband við þjónustu</string>
+    <string name="check_for_update">Leita að uppfærslu fyrir posa</string>
+    <string name="check_for_update_summary">Athugar hvort til sé uppfærsla fyrir kortalesarann á netþjón Handpoint</string>
+<!-- Login -->
+	<string name="login_button_label">Innskráning</string>
+	<string name="register_button_label">Stofna reikning</string>
+	<string name="password_label">Lykilorð</string>
+	<string name="password_create_label">Stofnið lykilorð</string>
+	<string name="password_confirm_label">Staðfestið lykilorð</string>
+	<string name="forgot_password_link_label"><u>Gleymt lykilorð?</u></string>
+	<string name="login_message">Gaman að sjá þig aftur.</string>
+	<string name="register_message">Þetta gæti verið upphaf að yndislegri vináttu.</string>
+	<string name="invitation">Búðu til PIN og byrjaðu að taka við greiðslum.</string>
+	<string name="warn_wait_message">Reyndu aftur eftir %s sekúndur</string>
+    <string name="forgot_password_dialog_message">Endurstilling lykilorðs hreinsar út öll vistuð gögn forritsins. Ertu viss um þessa aðgerð?</string>
+<!-- Splash -->
+	<string name="copyright"><![CDATA[
+	&#169; 2011-2013 Handpoint Ltd.
+	]]>
+	</string>
+	<string name="version">Útgáfa %s</string>
+	<string name="handpoint_link"><u>www.handpoint.com</u></string>
+<!--Log collector-->
+	<string name="logs_device_info">
+		Tegund posa: <xliff:g id="device_model">%s</xliff:g>\n
+		Firmware útgáfa: <xliff:g id="firmware_revision">%s</xliff:g>\n
+		Kernel útgáfa: <xliff:g id="kernel_version">%s</xliff:g>\n
+		Útgáfunúmer: <xliff:g id="build_number">%s</xliff:g>\n
+	</string>
+	<string name="logs_addition_info">Aukaupplýsingar:</string>
+	<string name="logs_subject">Upplýsingar fyrir þjónustuver</string>
+	<string name="android_version">Android útgáfa:</string>
+	<string name="application_version">POS útgáfa:</string>
+	<string name="logs_collecting_progress">Safnar upplýsingum...</string>
+	<string name="logs_collecting_failed">Upplýsingasöfnun mistókst</string>
+	<string name="logs_chooser_title">Veljið sendanda</string>
+<!-- Signature -->
+	<string name="button_ok_label">OK</string>
+	<string name="button_accept_label">Samþykkja</string>
+	<string name="button_decline_label">Hafna</string>
+	<string name="button_resign_label">Undirrita á ný</string>
+	<string name="signature_label">Undirskrift</string>
+<!-- History -->
+	<string name="payment_history_title">Greiðslusaga</string>
+	<string name="abs_action_del">Eyða</string>
+	<string name="abs_action_void">Hætta við</string>
+	<plurals name="h_delete_confirm">
+        <item quantity="one">Eyða greiðslu?</item>
+        <item quantity="other">Eyða %d greiðslum?</item>
+    </plurals>		
+    <plurals name="abs_selected_title">
+        <item quantity="one">greiðsla valin</item>
+        <item quantity="other">%d greiðslur valdar</item>
+    </plurals>		
+   	<string name="no_data">Engar greiðslur til birtingar</string>
+	<string name="void_transaction_not_allowed">Ekki mögulegt að ógilda greiðslu</string>
+	<string name="voided_mark">Sala ógild</string>
+	<string name="void_mark">Ógilding</string>
+    <string name="sale_mark">sala</string>
+    <string name="refund_mark">endurgreiðsla</string>
+<!-- Warnings -->
+	<string name="warn_no_last_transaction">Því miður, engar færslur á skrá</string>
+	<string name="warn_empty_amount">Vinsamlegast sláið inn upphæð.</string>
+	<string name="warn_transaction_in_progress">Færsla nú þegar í ferli, reynið aftur síðar.</string>
+	<string name="warn_no_saved_device">Ekkert tæki finnst, stillið betur í tengingar tækja.</string>
+	<string name="warn_connection_unavailble">Tenging ekki í boði</string>
+	<string name="warn_no_connection">Enginn posi finnst</string>
+	<string name="warn_log_collector" ><![CDATA[Keyrið Log Collector appið.\nÞað mun sækja atburðaskrá tækis og senda til <support email>.\nÞú munt geta lesið yfir gögnin áður en þau eru send.]]></string>
+	<string name="warn_invalid_password">Aðgangskóði ætti aðeins að vera 4 stafir</string>
+	<string name="warn_invalid_old_password">Gamli aðgangskóðinn er rangur</string>
+	<string name="warn_passwords_not_match">Aðgangskóðar stemma ekki</string>
+	<string name="warn_authentication_failed">Aðgangskóðinn er rangur</string>
+	<string name="warn_turn_on_ped">Næ ekki að tengjast posa, er kveikt á honum?</string>
+    <string name="warn_connection_lost">Samband við posa rofnaði. Vinsamlegast endurtengist honum.</string>
+<!-- Errors -->
+	<string name="error_no_email_client">Stillingar fyrir tölvupóst eru ekki til staðar</string>
+	<string name="error_send_email_failed">Tókst ekki að senda póst</string>
+	<string name="error_authentication_failed">Aðgangskóði rangur</string>
+	<string name="error_save_financial_transaction">Villa kom upp við að vista færsluna, sjá atburðaskrá</string>
+	<string name="error_create_account_failed">Ekki tókst að stofna reikning, sjá atburðaskrá</string>
+	<string name="error_invalid_data">Tókst ekki að hlaða .ini skrá, sjá atburðaskrá</string>
+	<string name="error_unknown">Óþekkt villa, sjá nánar í atburðaskrá</string>
+<!-- Signature Receipt -->
+	<string name="signature_accept">Samþykkt</string>
+	<string name="signature_cancel">Hætta við</string>
+<!-- Receipt -->
+	<string name="no_description">*Engin lýsing*</string>
+	<string name="date">Dags: </string>
+    <string name="copy_receipt">AFRIT</string>
+	<string name="invalid_server_settings">Rangar stillingar tölvupóstþjóns, athugið \"%s\" stillinguna</string>
+	<string name="sending_email">Sendi tölvupóst...</string>
+	<string name="merchant_tab_label">Söluaðili</string>
+	<string name="customer_tab_label">Viðskiptavinur</string>
+    <string name="create_pdf">Ekki tókast að búa til .pdf kvittun fyrir tölvupóst.</string>
+    <string name="pdf_dlg_title">Bý til .pdf kvittun</string>
+    <string name="pdf_dlg_msg">Í vinnslu...</string>
+<!-- Connection progress dialog -->
+	<string name="connecting">Tengist posa</string>
+<!-- other -->
+	<string name="minutes_short">mín</string>
+	<string name="seconds_short">sek</string>
+</resources>

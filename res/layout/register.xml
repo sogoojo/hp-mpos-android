@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--   Copyright 2013 Handpoint
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+    	android:layout_height="0pt"
+    	android:layout_weight="0.18"
+    	android:gravity="top|center_horizontal"	     
+	>
+	  <ImageView 
+        android:id="@+id/handpoint_logo"
+        android:src="@drawable/logo_handpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+      />	    
+	</LinearLayout>
+
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+    	android:layout_height="0pt"
+    	android:layout_weight="0.64"
+    	android:gravity="center_horizontal"
+	>
+		<ImageView 
+			android:id="@+id/hi_message"
+			android:src="@drawable/hi"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+		/>
+			    
+	    <TextView 
+	        android:id="@+id/message_line"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:text="@string/register_message"
+	        android:textColor="@android:color/black"
+	        android:textAppearance="@android:style/TextAppearance.Large"
+	        android:singleLine="false"
+	        android:lines="2"
+	        android:layout_below="@id/hi_message"
+	        android:layout_centerHorizontal="true"
+			android:layout_marginTop="20dp"
+			android:layout_marginLeft="35dp"
+			android:layout_marginRight="35dp"
+			android:gravity="center_horizontal"
+		/>
+		    
+		<TextView
+	 		android:id="@+id/invitation_label"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/invitation"
+	        android:textColor="@android:color/black"
+	        android:textAppearance="@android:style/TextAppearance.Small"
+	        android:textStyle="bold"
+			android:layout_above="@+id/password_create_label"
+			android:layout_alignLeft="@+id/password_layout"
+			android:layout_marginTop="10dp"			
+		/>
+
+		<ImageView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBottom="@+id/password_create_label"
+		    android:layout_alignTop="@id/invitation_label"
+		    android:layout_toLeftOf="@id/invitation_label"
+		    android:scaleType="fitXY"
+		    android:src="@drawable/arrow_drawn"
+		    android:padding="5dp" 
+		 />
+
+	    <TextView
+	 		android:id="@+id/password_create_label"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/password_create_label"
+	        android:textColor="@color/gray"
+	        android:textAppearance="@android:style/TextAppearance.Small"
+			android:layout_above="@+id/password_layout"
+			android:layout_alignLeft="@+id/password_layout"
+			android:layout_marginTop="10dp"			
+		/>
+		<fragment android:name="com.handpoint.headstart.client.ui.PasscodeFragment"
+		    android:id="@+id/password_layout" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_above="@+id/password_confirm_label"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"
+		/>
+	    	    	    
+		<TextView
+	 		android:id="@+id/password_confirm_label"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/password_confirm_label"
+	        android:textColor="@color/gray"
+	        android:textAppearance="@android:style/TextAppearance.Small"
+			android:layout_above="@+id/password_confirm_layout"
+			android:layout_alignLeft="@id/password_layout"
+			android:layout_marginTop="10dp"
+		/>
+
+		<fragment android:name="com.handpoint.headstart.client.ui.PasscodeFragment"
+		    android:id="@+id/password_confirm_layout" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/password_layout"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignRight="@+id/password_layout"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"
+		/>
+	    	    	
+	</RelativeLayout>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+    	android:layout_height="0pt"
+    	android:layout_weight="0.18"
+		android:orientation="vertical"
+    	android:gravity="bottom|center_horizontal"	     
+	>
+	    
+		<ImageView
+			android:id="@+id/logo_devider"
+			android:src="@drawable/divider" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+		/>
+		<Button 
+			android:id="@+id/register_button"
+			style="@style/LoginScreenButtonStyle"
+			android:text="@string/register_button_label"
+			android:background="@drawable/button_orange_selector"
+			android:shadowColor="@color/orangeShadowColor"
+		/>
+	    	    
+	</LinearLayout>	
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--   Copyright 2013 Handpoint
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<!-- TODO: change action to call connection settings activity -->
+<Preference 
+	android:key="connection_settings"
+	android:title="@string/preference_connection_group"
+>
+	<intent android:action="com.handpoint.settings.connection.PICK"/>
+</Preference>
+<PreferenceCategory android:title="@string/preference_operation_group">	
+	<ListPreference
+		android:key="default_currency"
+		android:title="@string/default_currency"
+		android:dialogTitle="@string/default_currency"
+		android:persistent="true"
+	/>
+	<Preference 
+		android:key="fin_init"
+		android:title="@string/check_for_update"
+		android:summary="@string/check_for_update_summary"
+		android:persistent="false"
+	/>				
+</PreferenceCategory>
+<PreferenceCategory android:title="@string/preference_merchant_group">	
+	<EditTextPreference
+		android:key="merchant_name" 
+		android:title="@string/merchant_name"
+		android:persistent="true"
+	/>
+	<EditTextPreference
+		android:key="merchant_email_address" 
+		android:title="@string/merchant_email_address"
+		android:persistent="true"
+		android:inputType="textEmailAddress"
+	/>
+	<Preference
+		android:key="merchant_email_server_settings" 
+		android:title="@string/merchant_email_server_settings"
+	>
+		<intent android:action="com.handpoint.settings.merchantserversettings.PICK"/>
+	</Preference>
+</PreferenceCategory>
+<!--  uncomment for turning on simulator functionality-->
+<!--   
+<PreferenceCategory android:title="@string/preference_mode_group">
+	<CheckBoxPreference 
+		android:key="mode_simulator"
+		android:title="@string/simulation_mode"
+		android:summary="@string/simulation_mode_summary"
+	/>
+	<EditTextPreference
+		android:key="simulator_delay" 
+		android:title="@string/simulator_delay"
+		android:dialogTitle="@string/simulator_delay_dialog"
+		android:dependency="mode_simulator"
+		android:numeric="integer"		
+		android:defaultValue="0"
+		android:persistent="true"
+	/>
+</PreferenceCategory>
+-->
+<PreferenceCategory android:title="@string/preference_security_group">
+<!-- 
+    <com.handpoint.headstart.client.ui.widget.EditTextPreferenceObfuscated 
+		android:key="shared_secret_key"
+		android:title="@string/shared_secret_key"
+	/>
+ -->	
+	<com.handpoint.headstart.client.ui.widget.EditPinPreference 
+		android:key="password"
+		android:title="@string/password"
+		android:dialogLayout="@layout/password_dialog"
+	/>
+	<ListPreference
+        android:defaultValue="0"
+        android:entries="@array/lock_delay_title"
+        android:entryValues="@array/lock_delay_value"
+        android:key="lock_delay"
+        android:title="@string/lock_delay_title"
+        android:summary="@string/lock_delay_summary" 
+     />
+</PreferenceCategory>	
+<PreferenceCategory android:title="@string/preference_support_group">
+	<CheckBoxPreference 
+		android:key="mode_support"
+		android:title="@string/support_mode"
+		android:summary="@string/support_mode_summary"
+		android:defaultValue="false"
+	/>
+	<Preference 
+		android:key="send_logs"
+		android:title="@string/contact_support"
+		android:summary="@string/support_contact_summary"
+		android:persistent="false"
+	/>		
+</PreferenceCategory>	
+</PreferenceScreen>

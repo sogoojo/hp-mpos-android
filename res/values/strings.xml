@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--   Copyright 2013 Handpoint
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Handpoint</string>
+    <string name="abs_title">HANDPOINT</string>
+<!-- commons -->
+    <string name="pay">Pay</string>
+    <string name="refund">Refund</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+	<string name="done">Done</string>   
+<!-- numpad -->
+	<string name="description">+ Description</string>
+	<string name="take_photo">Take a photo</string>
+	<string name="no_photo_ability">There is no ability to take a photo</string>
+	<string name="no_full_size_photo">You can not view photo</string>
+	<string name="product_photo">Photo of product</string>
+	<string name="remove_product">Remove product</string>
+	<string name="button_00">00</string>
+	<string name="button_0">0</string>
+	<string name="button_1">1</string>
+	<string name="button_2">2</string>
+	<string name="button_3">3</string>
+	<string name="button_4">4</string>
+	<string name="button_5">5</string>
+	<string name="button_6">6</string>
+	<string name="button_7">7</string>
+	<string name="button_8">8</string>
+	<string name="button_9">9</string>
+<!-- main menu -->
+	<string name="connect_to_last">Connect to last used</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="payments_history">Payments history</string>
+<!-- receipt menu -->
+    <string name="thanks">Thank you!</string>
+	<string name="receipt_send_title">Would you like a receipt?</string>
+	<string name="email_hint">email address</string>
+	<string name="sms_hint">Text phone number</string>
+	<string name="revert">Reverse</string>
+	<string name="details">Details</string>
+	<string name="no_merchant_email_error_prompt">"Check if the merchant email address is set in properties."</string>
+	<string name="no_server_settings_error_prompt">"Check if the email server is set properly."</string>
+<!-- image preview -->
+	<string name="preview_title">Preview</string>
+	<string name="retake_action">Retake</string>
+	<string name="remove_action">Remove</string>
+<!-- options -->
+	<string name="header">Menu</string>
+	<string name="connect_to">Connect to Card Reader</string>
+	<string name="faq">FAQ</string>
+	<string name="about">About Handpoint</string>
+	<string name="calulator">Calculator</string>
+	<string name="logout">Logout</string>
+<!-- Preferences -->
+	<string name="preference_connection_group">Connections</string>
+	<string name="preference_operation_group">Operation settings</string>
+	<string name="preference_merchant_group">Merchant settings</string>
+	<string name="connection_type">Connection type</string>
+	<string name="bluetooth">Bluetooth</string>
+	<string name="bluetooth_turn_on">Turn on Bluetooth</string>
+	<string name="bluetooth_turning_on">Turning on Bluetooth...</string>
+	<string name="bluetooth_turning_off">Turning off Bluetooth...</string>
+	<string name="bluetooth_settings">Bluetooth settings</string>
+	<string name="bluetooth_settings_summary">Manage connection, set device name and discoverability</string>
+	<string name="bluetooth_scan">Scan for devices</string>
+	<string name="bluetooth_devices">Bluetooth devices</string>
+	<string name="bluetooth_connected">Connected</string>
+	<string name="bluetooth_connecting">Connecting...</string>
+	<string name="bluetooth_disconnected">Disconnected</string>
+	<string name="bt_device_state_non_bonded">Pair with this device</string>
+	<string name="bt_device_state_bonded">Paired but not connected</string>
+	<string name="bt_device_state_connected">Paired but not connected</string>
+	<string name="serial">Serial</string>
+	<string name="serial_settings">Serial connection settings</string>
+	<string name="serial_connect">Connect using serial connection</string>
+	<string name="serial_settings_summary">Manage connection, set serial connection properties</string>
+	<string name="serial_com_port">COM port</string>
+	<string-array name="serial_com_port_titles">
+		<item>Com 1</item>
+		<item>Com 2</item>
+		<item>Com 3</item>
+		<item>Com 4</item>
+		<item>Com 5</item>
+		<item>Com 6</item>
+		</string-array>	
+	<string-array name="serial_com_port_values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+	</string-array>
+	<string name="serial_baud_rate">Baud rate</string>
+	<string-array name="serial_baud_rate_titles">
+		<item>115200 bps</item>
+		<item>19200 bps</item>
+		<item>9600 bps</item>
+		<item>4800 bps</item>
+		<item>2400 bps</item>
+		<item>1200 bps</item>
+	</string-array>	
+	<string-array name="serial_baud_rate_values">
+		<item>5</item>
+		<item>4</item>
+		<item>3</item>
+		<item>2</item>
+		<item>1</item>
+		<item>12</item>
+	</string-array>
+	<string name="serial_number_of_bits">Number of bits</string>
+	<string-array name="serial_number_of_bits_titles">
+		<item>7 bits</item>
+		<item>8 bits</item>
+	</string-array>	
+	<string-array name="serial_number_of_bits_values">
+		<item>7</item>
+		<item>8</item>
+	</string-array>
+	<string name="serial_parity">Parity</string>
+	<string-array name="serial_parity_titles">
+		<item>None</item>
+		<item>Even</item>
+		<item>Odd</item>
+	</string-array>	
+	<string-array name="serial_parity_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	<string name="serial_stop_bits">Stop bits</string>
+	<string-array name="serial_stop_bits_titles">
+		<item>1 bit</item>
+		<item>2 bits</item>
+		<item>1.5 bits</item>
+	</string-array>	
+	<string-array name="serial_stop_bits_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	<string name="serial_handshake">Handshake</string>
+	<string-array name="serial_handshake_titles">
+	    <item>None</item>
+		<item>DTR</item>
+		<item>DSR</item>
+		<item>CTS</item>
+		<item>RTS</item>	    
+	</string-array>	
+	<string-array name="serial_handshake_values">
+	    <item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>4</item>
+		<item>8</item>
+		</string-array>
+	<string name="serial_flow_control">Flow control</string>
+	<string-array name="serial_flow_control_titles">
+		<item>None</item>
+		<item>XON/XOFF</item>
+		<item>RS/CS</item>
+	</string-array>	
+	<string-array name="serial_flow_control_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+			
+	<string name="default_currency">Currency</string>
+	<string name="default_operation">Operation</string>
+	<string name="default_receipt_action">Send receipt via</string>
+	<string-array name="operation_titles">
+		<item>Sale</item>
+		<item>Refund</item>
+	</string-array>	
+	<string-array name="operation_values">
+		<item>1</item>
+		<item>3</item>
+	</string-array>
+	<string name="lock_delay_title">App lock timeout</string>
+	<string name="lock_delay_summary">Adjust the delay before the app automatically locks</string>
+	<string-array name="lock_delay_title">
+        <item>None</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+    </string-array>
+    <string-array name="lock_delay_value">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>300</item>
+        <item>600</item>
+    </string-array>
+	<string name="merchant_email_address">Merchant email address</string>
+	<string name="merchant_email_server_settings">Merchant email server settings</string>
+	<string name="merchant_name">Merchant name</string>
+	<string name="merchant_address">Merchant address</string>
+	<string name="merchant_email_user">User</string>
+	<string name="merchant_email_pswd">Password</string>
+	<string name="merchant_email_host">Host</string>
+	<string name="merchant_email_port">Port</string>
+	<string name="merchant_email_protocol">Protocol</string>
+
+	<string-array name="supported_protocols_titles">
+		<item>None</item>
+		<item>SSL</item>
+		<item>TLS</item>
+	</string-array>
+	<string-array name="supported_protocols_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+
+	<string name="preference_mode_group">Run mode</string>
+	<string name="preference_security_group">Security</string>	
+	<string name="simulation_mode">Simulation mode</string>
+	<string name="simulator_delay">Simulator delay</string>
+	<string name="simulator_delay_dialog">Simulator delay (ms)</string>
+	<string name="simulation_mode_summary">Run app with Card Reader simulator</string>
+
+	<string name="landscape_mode">Landscape mode</string>
+	<string name="landscape_mode_summary">Run app in landscape mode</string>
+
+	<string name="shared_secret_key">Shared Secret Key</string>	
+	<string name="password">Passcode</string>	
+	<string name="confirm_password">Confirm Passcode</string>	
+	<string name="preference_support_group">Support</string>
+	<string name="support_mode">Support mode</string>
+	<string name="support_mode_summary">Gather app information for support</string>
+	<string name="support_mode_warning">Warning: Support mode will slow down your Handpoint app considerably and should only be used when requested by Handpoint support.</string>
+	<string name="support_contact_summary">Send Email to Support</string>
+	
+	<string-array name="connection_type_titles">
+	    <item>Bluetooth</item>
+	    <item>Serial</item>
+	</string-array>
+	<string-array name="connection_type_values">
+	    <item>BT</item>
+	    <item>COM</item>
+	</string-array>
+	<string name="unknown">Unknown</string>
+<!-- password dialog -->
+	<string name="edit_old_password_label">Enter old passcode:</string>	
+	<string name="edit_password_label">Enter new passcode:</string>	
+	<string name="edit_password2_label">Enter new passcode again:</string>
+<!-- currencies -->
+	<string name="currency_title_USD">US dollar</string>
+	<string name="currency_title_GBP">Great Britain Pounds</string>
+	<string name="currency_title_EUR">Euro</string>
+	<string name="currency_title_ISK">Icelandic króna</string>
+<!-- Activation -->
+	<string name="ini_data_loaded">Application activated</string>	
+	<string name="ini_data_load_failed">Application activation failed</string>
+    <string name="activation_dialog_message">Do you want to activate your application?</string>
+<!-- Statuses -->
+	<string name="label.connecting">Connecting...</string>
+	<string name="label.approved">Approved</string>
+	<string name="label.declined">Declined</string>
+	<string name="label_not_available">N/A</string>
+<!-- Email template -->
+	<string name="sending_email">Sending email ...</string>
+	<string name="email_template" formatted="false">
+    <![CDATA[
+    <h2>CARD PAYMENT</h2>
+    <b>%s</b>
+    %s
+	]]>
+	</string>
+<!-- SMS template -->
+	<string name="sms_template" formatted="false"><![CDATA[
+%s\n
+\n
+Transaction:%s\n
+%s %s%s\n
+\n
+Verified by PIN\n
+%s\n
+Thank you for shopping.
+	]]>
+	</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="check_for_update">Check for Card Reader update</string>		
+    <string name="check_for_update_summary">Check Handpoint server for Card Reader firmware upgrade</string>		
+<!-- Login -->
+	<string name="login_button_label">Sign in</string>
+	<string name="register_button_label">Create account</string>
+	<string name="password_label">Enter your passcode</string>
+	<string name="password_create_label">Create your passcode</string>
+	<string name="password_confirm_label">Confirm your passcode</string>
+	<string name="forgot_password_link_label"><u>Reset your passcode</u></string>
+	<string name="login_message">Nice to see you again.</string>
+	<string name="register_message">This could be the start of a beautiful friendship.</string>
+	<string name="invitation">Create your PIN and start accepting payments</string>
+	<string name="warn_wait_message">Please try again in %s seconds</string>
+	<string name="forgot_password_dialog_message">Resetting your passcode means that all your handpoint application data will be lost. Do you want to continue?</string>
+<!-- Splash -->
+	<string name="copyright"><![CDATA[
+	&#169; 2011-2013 Handpoint Ltd.
+	]]>
+	</string>
+	<string name="version">Version %s</string>
+	<string name="handpoint_link"><u>www.handpoint.com</u></string>
+<!--Log collector-->
+	<string name="logs_device_info">
+		Device model: <xliff:g id="device_model">%s</xliff:g>\n
+		Firmware version: <xliff:g id="firmware_revision">%s</xliff:g>\n
+		Kernel version: <xliff:g id="kernel_version">%s</xliff:g>\n
+		Build number: <xliff:g id="build_number">%s</xliff:g>\n
+	</string>
+	<string name="logs_addition_info">Additional info:</string>
+	<string name="logs_subject">Application logs report</string>
+	<string name="android_version">Android version:</string>
+	<string name="application_version">POS version:</string>
+	<string name="logs_collecting_progress">Collecting logs...</string>
+	<string name="logs_collecting_failed">Logs collection failed</string>
+	<string name="logs_chooser_title">Please choose sender</string>
+<!-- Signature -->
+	<string name="button_ok_label">OK</string>
+	<string name="button_accept_label">Accept</string>
+	<string name="button_decline_label">Decline</string>
+	<string name="button_resign_label">Re-sign</string>
+	<string name="signature_label">Signature</string>
+<!-- History -->
+	<string name="payment_history_title">Payment history</string>
+	<string name="abs_action_del">Delete</string>
+	<string name="abs_action_void">Reverse</string>
+	<plurals name="h_delete_confirm">
+        <item quantity="one">Delete payment?</item>
+        <item quantity="other">Delete %d payments?</item>
+    </plurals>		
+    <plurals name="abs_selected_title">
+        <item quantity="one">1 payment selected</item>
+        <item quantity="other">%d payments selected</item>
+    </plurals>		
+   	<string name="no_data">You don\'t have any payments to display</string>
+	<string name="void_transaction_not_allowed">Reversing a transaction is not allowed</string>
+	<string name="voided_mark">reversed</string>
+	<string name="void_mark">reverse</string>
+	<string name="sale_mark">sale</string>
+	<string name="refund_mark">refund</string>
+<!-- Warnings -->
+	<string name="warn_no_last_transaction">Sorry, there is no previous Transaction</string>
+	<string name="warn_empty_amount">Amount can not be zero, please enter amount</string>
+	<string name="warn_transaction_in_progress">Transaction is in progress, please try again later</string>
+	<string name="warn_no_saved_device">There is no device to connect to, please select device in Settings section</string>
+	<string name="warn_connection_unavailble">Connection is unavailable now</string>
+	<string name="warn_no_connection">There is no connection to card reader, please connect to it first</string>
+	<string name="warn_log_collector" ><![CDATA[Run Log Collector application.\nIt will collect the device log and send it to <support email>.\nYou will have an opportunity to review and modify the data being sent.]]></string>
+	<string name="warn_invalid_password">Passcode should contains 4 digits only</string>
+	<string name="warn_invalid_old_password">Old passcode is incorrect</string>
+	<string name="warn_passwords_not_match">Passcodes do not match</string>
+	<string name="warn_authentication_failed">The passcode you entered is incorrect.</string>
+	<string name="warn_turn_on_ped">Can\'t connect to Card Reader, please check if it is turned on</string>
+    <string name="warn_connection_lost">The connection to the card reader has been lost. Please reconnect.</string>
+<!-- Errors -->
+	<string name="error_no_email_client">There are no email clients installed</string>
+	<string name="error_send_email_failed">Failed to send email</string>
+	<string name="error_authentication_failed">The passcode you entered is incorrect</string>
+	<string name="error_save_financial_transaction">Error occurred when saving financial transaction, please check logs</string>
+	<string name="error_create_account_failed">Account creation failed, please check logs</string>
+	<string name="error_invalid_data">Unable to load ini file, see logs for details</string>
+	<string name="error_unknown">Unknown error has occurred, see logs</string>
+<!-- Signature Receipt -->
+	<string name="signature_accept">Accept</string>
+	<string name="signature_cancel">Cancel</string>
+<!-- Receipt -->
+    <string name="copy_receipt">COPY RECEIPT</string>
+    <string name="no_description">*No description*</string>
+	<string name="date">Date: </string>
+	<string name="invalid_server_settings">Invalid e-mail server settings, please check \"%s\" property</string>
+	<string name="sending_email">Sending e-mail...</string>
+	<string name="merchant_tab_label">Merchant</string>
+	<string name="customer_tab_label">Customer</string>
+    <string name="create_pdf">Error creating .pdf receipt for email.</string>
+    <string name="pdf_dlg_title">Creating .pdf receipt</string>
+    <string name="pdf_dlg_msg">Generating...</string>
+<!-- Connection progress dialog -->
+	<string name="connecting">Connecting to Card Reader</string>
+<!-- other -->
+	<string name="minutes_short">min</string>
+	<string name="seconds_short">sec</string>
+</resources>

@@ -27,4 +27,5 @@ lint.xml
 test-key.keystore
 repo/
 target/
+.DS_Store
 
