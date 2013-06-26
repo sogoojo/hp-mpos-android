@@ -7,7 +7,12 @@ See http://www.handpoint.com for more information.
 The app can be downloaded from Google Play:
 
 https://play.google.com/store/apps/developer?id=Handpoint
+ 
+Requerments for use:
+This source code depends on libraries found in the Handpoint SDK for Android, available here: http://www.handpoint.com/developers/android/
 
+License
+===============
 ------------------------
  Copyright 2013 Handpoint
 
@@ -23,6 +28,3 @@ https://play.google.com/store/apps/developer?id=Handpoint
  See the License for the specific language governing permissions and
  limitations under the License.
  ------------------------
- 
- Requerments for use:
- This source code depends on libraries found in the Handpoint SDK for Android, available here: http://www.handpoint.com/developers/android/
